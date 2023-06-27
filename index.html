@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Tour</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./photo-sphere-viewer/core/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/markers-plugin/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/virtual-tour-plugin/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/gallery-plugin/index.css" />
+    <script src="./three/build/three.min.js"></script>
+    <script src="./photo-sphere-viewer/core/index.js"></script>
+    <script src="./photo-sphere-viewer/virtual-tour-plugin/index.js"></script>
+    <script src="./photo-sphere-viewer/markers-plugin/index.js"></script>
+    <script src="./photo-sphere-viewer/gallery-plugin/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_wrapper">
+            <div class="logo">Изделия из камня</div>
+            <nav>
+                <a href="#">Главная</a>
+                <span class="line"></span>
+                <a href="#">О компании</a>
+                <span class="line"></span>
+                <a href="#">Посетителям</a>
+                <span class="line"></span>
+                <a href="#">Изделия</a>
+                <span class="line"></span>
+                <a href="#">Сувениры</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <button id="startvt">Начать онлайн-экскурсию</button>
+        <div class="viewerContainer">
+            <div id="viewer"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+            <p class="footer_name">МРАМОРНЫЕ ИЗДЕЛИЯ Вологодской области</p>
+            <p class="contacts">
+                Контакты: <br> <br>
+                тел: (8172) 72-22-83;<br> <br>
+                e-mail: mramor.vol@gmail.ru
+            </p>
+            <div class="socials">
+                <img src="img/instagram-negative.svg" alt="">
+                <img src="img/telegram-negative.svg" alt="">
+                <img src="img/vk-negative.svg" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
